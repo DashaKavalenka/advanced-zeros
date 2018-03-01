@@ -3,7 +3,7 @@ module.exports = function getZerosCount(number, base) {
     var k,
         zeroCount,
         powerOfEachMultiplier = [],
-        multipliers = [2, 3, 5, 7],
+        multipliers = [2, 3, 5, 7, 11, 13, 17, 19],
         countOfMultiplier,
         multipliersCount = new Map(),
         countOfCurrentMultiplier,
